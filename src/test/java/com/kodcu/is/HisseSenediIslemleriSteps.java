@@ -29,12 +29,12 @@ public class HisseSenediIslemleriSteps {
     @Ozaman("^sistem  uyarısı  şöyle olmalıdır OFF$")
     public void sistemUyarısıŞöyleOlmalıdırOFF() throws Throwable {
 
-        Assert.assertEquals(hisse.getDurum(), "OFF");
+        org.junit.Assert.assertEquals(hisse.getDurum(), "OFF");
     }
 
     @Ozaman("^sistem  uyarısı  şöyle olmalıdır ON$")
     public void sistemUyarısıŞöyleOlmalıdırON() throws Throwable {
-        Assert.assertEquals(hisse.getDurum(), "ON");
+        org.junit.Assert.assertEquals(hisse.getDurum(), "ON");
     }
 
 
